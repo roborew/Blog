@@ -10,7 +10,7 @@
 
 Article.delete_all
 Article.create!([
-                  { title: "Creating Multi-site on mac", body: "This is a guide to creating a multi-site on mac", cover_image: "https://images.unsplash.com/photo-1634170380004-4b3b3b3b3b3b", published_at: Time.current },
-                  { title: "Creating Multi-site on windows", body: "This is a guide to creating a multi-site on windows", cover_image: "https://images.unsplash.com/photo-1634170380004-4b3b3b3b3b3b", published_at: Time.current },
-                  { title: "Creating Multi-site on linux", body: "This is a guide to creating a multi-site on linux", cover_image: "https://images.unsplash.com/photo-1634170380004-4b3b3b3b3b3b", published_at: Time.current }
+                  { title: "Creating Multi-site on mac", body: "This is a guide to creating a multi-site on mac", cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", published_at: Time.current },
+                  { title: "Creating Multi-site on windows", body: "This is a guide to creating a multi-site on windows", cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", published_at: Time.current },
+                  { title: "Creating Multi-site on linux", body: "This is a guide to creating a multi-site on linux", cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", published_at: Time.current }
                 ])
